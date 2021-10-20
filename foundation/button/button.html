@@ -1,0 +1,18 @@
+{% set url = url|default('') %}
+<table class="button {{ class }}">
+    <tbody>
+        <tr>
+            <td>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="{{ url(url) }}">{{ title }}</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+{
+    "title": "Email components",
+    "package-type": "components",
+    "name": "email",
+    "version": "1.0.0",
+    "description": "Arikaim CMS email components library.",
+    "repository": "https://github.com/arikaim/email-components.git",
+    "require": {
+        "library": [     
+            "email-library",
+            "foundation-emails"      
+        ]
+    }
+}
