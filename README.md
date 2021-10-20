@@ -15,7 +15,7 @@ Arikaim CMS email components library.
 composer require arikaim/email-components
 ```
 
-#### Example usage
+#### Example
 
 Email template code: 
 ```
@@ -25,5 +25,4 @@ Email template code:
             url: 'Link Url' 
         },'static') 
     }}
-
 ```
